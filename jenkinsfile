@@ -1,0 +1,13 @@
+node(''){  
+    stage('Hello Wolrd') { 
+	print("successfully imported")
+    }
+
+    stage('Print Name'){
+	// numeric
+        One  = 1
+        Two  = 2
+        print( One * Two)        
+    }
+
+}
